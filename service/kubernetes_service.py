@@ -1,8 +1,9 @@
 import logging
 import sys
 
-import config_reader
 from PyInquirer import prompt
+
+import config_reader
 import request_handler
 import pods_manager
 
@@ -18,7 +19,7 @@ def get_target_account():
         }
     ]
     account = prompt(account_list)
-    return account;
+    return account
 
 
 def get_request_type():
@@ -32,7 +33,7 @@ def get_request_type():
         }
     ]
     request_type = prompt(request_types)
-    return request_type;
+    return request_type
 
 
 def get_pod_count():
@@ -69,6 +70,9 @@ def get_target_pods():
                 },
                 {
                     'name': 'osv-pfm-service'
+                },
+                {
+                    'name': 'osv-software-release-refresh-service'
                 },
                 {
                     'name': 'osv-psirt-fn-refresh-service'
