@@ -159,5 +159,5 @@ try:
     logging.info("%s request completed. PodCount: %s, TargetPod's: %s", request_type, pod_count, target_pods)
 
 except Exception as err:
-    logging.error('Could not a %s request. %s', request_type, err)
+    logging.error('Could not complete %s request. %s', request_type, err)
     raise err
