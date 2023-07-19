@@ -119,8 +119,11 @@ def get_target_pods():
 
 
 def confirm_request():
-    response = input("Please type 'confirm' to trigger a request: ")
-    return bool(True) if response == "confirm" else sys.exit()
+    response = input("Please type 'confirm' to perform the actions described above: ")
+    if response == "confirm":
+        return bool(True)
+    print("Request aborted.")
+    sys.exit()
 
 
 logger = logging.getLogger()
