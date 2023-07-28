@@ -13,7 +13,7 @@ In order to simplify the process and reduce time and effort as well, here scale-
 ## Prerequisites
 > 1. Install python `brew install python` or` brew install python@3.10.12`
 > 2. Verify the installation `python3 --version`
-> 3. Clone [repo](https://github.com/sabrajak/osv-kubernetes-service.git)
+> 3. Clone [repo](https://github.com/sabrajak/osv-kubernetes-automation.git)
 > 4. Right-click on the project -> open module settings -> choose python module sdk (if not configured)
 > 5. Install required modules
 
