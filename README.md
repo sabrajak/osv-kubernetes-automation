@@ -1,4 +1,4 @@
-# osv-kubernetes-service
+# osv-kubernetes-automation
 
 ## Why do we need automation?
 Now a days, micro-service numbers are growing up and during the integration testing or performance benchmarking testing in dev environment, there are numerous scenarios for scaling up, scaling down, shutting down, and restarting the pods.
